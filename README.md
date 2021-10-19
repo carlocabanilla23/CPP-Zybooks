@@ -7,3 +7,5 @@ Authoring Assistant - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/
 Painting a Wall - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/Painting%20a%20wall
 
 Shopping Cart 1 - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/Shopping%20Cart
+
+Fibonacci Sequence - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/Fibonnaci
