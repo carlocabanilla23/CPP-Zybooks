@@ -1,55 +1,32 @@
-# Zybooks LAB*: Program: Online shopping cart (Part 1)
+# Zybooks LAB*: Program: Painting a wall
+Output each floating-point value with two digits after the decimal point, which can be achieved by executing
+cout << fixed << setprecision(2); once before all other cout statements.
 
-(1) Create three files to submit:
+(1) Prompt the user to input a wall's height and width. Calculate and output the wall's area. (2 pts)
 
-ItemToPurchase.h - Class declaration
-ItemToPurchase.cpp - Class definition
-main.cpp - main() function
-Build the ItemToPurchase class with the following specifications:
+Note: This zyLab outputs a newline after each user-input prompt. For convenience in the examples below, the user's input value is shown on the next line, but such values don't actually appear as output when the program runs.
 
-Default constructor
-Public class functions (mutators & accessors)
+Enter wall height (feet):
+12.0
+Enter wall width (feet):
+15.0
+Wall area: 180.00 square feet
 
-SetName() & GetName() (2 pts)
+(2) Extend to also calculate and output the amount of paint in gallons needed to paint the wall. Assume a gallon of paint covers 350 square feet. Store this value using a const double variable. (2 pts)
 
-SetPrice() & GetPrice() (2 pts)
+Enter wall height (feet):
+12.0
+Enter wall width (feet):
+15.0
+Wall area: 180.00 square feet
+Paint needed: 0.51 gallons
 
-SetQuantity() & GetQuantity() (2 pts)
+(3) Extend to also calculate and output the number of 1 gallon cans needed to paint the wall. Hint: Use a math function to round up to the nearest gallon. (2 pts)
 
-Private data members
-
-string itemName - Initialized in default constructor to "none"
-
-int itemPrice - Initialized in default constructor to 0
-
-int itemQuantity - Initialized in default constructor to 0
-
-(2) In main(), prompt the user for two items and create two objects of the ItemToPurchase class. Before prompting for the second item, call cin.ignore() to allow the user to input a new string. (2 pts)
-
-Ex:
-
-Item 1
-Enter the item name:
-Chocolate Chips
-Enter the item price:
-3
-Enter the item quantity:
-1
-
-Item 2
-Enter the item name:
-Bottled Water
-Enter the item price:
-1
-Enter the item quantity:
-10
-
-(3) Add the costs of the two items together and output the total cost. (2 pts)
-
-Ex:
-
-TOTAL COST
-Chocolate Chips 1 @ $3 = $3
-Bottled Water 10 @ $1 = $10
-
-Total: $13
+Enter wall height (feet):
+12.0
+Enter wall width (feet):
+15.0
+Wall area: 180.00 square feet
+Paint needed: 0.51 gallons
+Cans needed: 1 can(s)
