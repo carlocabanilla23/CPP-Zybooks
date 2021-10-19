@@ -1,4 +1,4 @@
-#LAB*: Program: Authoring assistant
+# Zybooks LAB*: Program: Authoring assistant
 (1) Prompt the user to enter a string of their choosing. Store the text in a string. Output the string. (1 pt)
 
 Ex:
