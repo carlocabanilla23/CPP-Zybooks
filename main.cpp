@@ -1,48 +1,29 @@
 #include <iostream>
+#include <cmath>                   // Note: Needed for math functions in part (3)
+#include <iomanip>                 // For setprecision
 using namespace std;
 
-#include "ItemToPurchase.h"
-
 int main() {
-    ItemToPurchase item1;
-    ItemToPurchase item2;
+   double wallHeight;
+   double wallWidth;
+   double wallArea;
+   double  paintNeeded;
+   cout << "Enter wall height (feet):" << endl;
+   cin  >> wallHeight;
+   cout << "Enter wall width (feet):" << endl;   // FIXED !  (1): Prompt user to input wall's width
+   cin  >> wallWidth;
+   
+             
+  
+                                          // FIXED Calculate and output wall area
+   wallArea = wallHeight*wallWidth;        //FIXED FIXME (1): Calculate the wall's area
+    paintNeeded = wallArea / 350;            
+   cout << "Wall area: "<<fixed<<setprecision(2)<<wallArea <<" square feet" << endl;  // FIXED FIXME (1): Finish the output statement
+   cout << "Paint needed: "<<fixed<<setprecision(2)<< paintNeeded <<" gallons" << endl;
+   cout << "Cans needed: "<<fixed<<setprecision(0)<< ceil(paintNeeded)<<" can(s)" << endl;
+   // FIXED (2): Calculate and output the amount of paint in gallons needed to paint the wall
 
+   // FIXED (3): Calculate and output the number of 1 gallon cans needed to paint the wall, rounded up to nearest integer
 
-    string inputVal;
-    int inputPrice;
-    int inputQuantity;
-
-    cout<< "Item 1"<<endl;
-    cout<< "Enter the item name:"<<endl;
-    getline(cin,inputVal);
-    item1.SetName(inputVal);
-    cout<< "Enter the item price:"<<endl;
-    cin>> inputPrice;
-    item1.SetPrice(inputPrice);
-    cout<< "Enter the item quantity:"<<endl;
-    cin>> inputQuantity;
-    item1.SetQuantity(inputQuantity);
-
-    cin.ignore();
-    cout<<endl;
-
-    cout<< "Item 2"<<endl;
-    cout<< "Enter the item name:"<<endl;
-    getline(cin,inputVal);
-    item2.SetName(inputVal);
-    cout<< "Enter the item price:"<<endl;
-    cin>> inputPrice;
-    item2.SetPrice(inputPrice);
-    cout<< "Enter the item quantity:"<<endl;
-    cin>> inputQuantity;
-    item2.SetQuantity(inputQuantity);
-
-   cout<<endl;
-    cout<< "TOTAL COST"<<endl;
-    cout<< item1.GetName() <<" " << item1.GetQuantity() << " @ $" << item1.GetPrice() << " = $" << item1.GetQuantity()*item1.GetPrice() <<endl;
-    cout<< item2.GetName() <<" " << item2.GetQuantity() << " @ $" << item2.GetPrice() << " = $" << item2.GetQuantity()*item2.GetPrice() <<endl;
-    cout<<endl;
-    cout<<"Total: $"<<(item1.GetQuantity()*item1.GetPrice() )+(item2.GetQuantity()*item2.GetPrice());
-    cout<<endl;
-    return 0;
+   return 0;
 }
