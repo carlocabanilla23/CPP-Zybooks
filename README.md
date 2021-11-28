@@ -1,6 +1,6 @@
 # ZyBooks C++ Labs
 
-This are all my all personal work on the zybook labs.
+This are all my personal work on the zybook labs.
 
 Authoring Assistant - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/Authoring%20Assistant
 
