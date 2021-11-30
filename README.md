@@ -9,3 +9,5 @@ Painting a Wall - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/Pain
 Shopping Cart 1 - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/Shopping%20Cart
 
 Fibonacci Sequence - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/Fibonnaci
+
+Hailsone Sequence - https://github.com/carlocabanilla23/CPP-Zybooks/tree/main/Hailstone%20sequence
