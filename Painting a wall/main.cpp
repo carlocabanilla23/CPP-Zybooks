@@ -8,6 +8,8 @@ int main() {
    double wallWidth;
    double wallArea;
    double paintNeeded;
+
+   cout << "Wall Paint Guide" << endl;
    cout << "Enter wall height (feet):" << endl;
    cin  >> wallHeight;
    cout << "Enter wall width (feet):" << endl;   
